@@ -173,14 +173,14 @@ broker 以插件的形式，独立于 Palo 部署。如果需要从第三方存�
 * 编译 Palo FE 和 BE：cstddef: no member named 'max_align_t' in the global namespace
 
     在 Ubuntu 16.04 环境下可能会遇到此问题。首先通过 `locate cstddef` 定位到系统的 cstddef 文件位置。打开 cstddef 文件，修改如下片段：
-
+    ```
     namespace std {
       // We handle size_t, ptrdiff_t, and nullptr_t in c++config.h.
       +#ifndef __clang__
       using ::max_align_t;
       +#endif
     }
-
+    ```
     > 参考：http://clang-developers.42468.n3.nabble.com/another-try-lastest-ubuntu-14-10-gcc4-9-1-can-t-build-clang-td4043875.html
 
 * 编译 Palo FE 和 BE：/bin/bash^M: bad interpreter: No such file or directory
