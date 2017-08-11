@@ -203,7 +203,7 @@ AgentStatus FileDownloader::_install_opt(
                                  curl_easy_strerror(curl_ret));
             }
         } else if (output_type == OutputType::STREAM) {
-            // Set callback fimction
+            // Set callback function
             curl_ret = curl_easy_setopt(
                     curl,
                     CURLOPT_WRITEFUNCTION,
@@ -227,7 +227,7 @@ AgentStatus FileDownloader::_install_opt(
                 }
             }
         } else if (output_type == OutputType::FILE) {
-            // Set callback fimction
+            // Set callback function
             curl_ret = curl_easy_setopt(
                     curl,
                     CURLOPT_WRITEFUNCTION,
