@@ -29,7 +29,7 @@
 
 如下图：
 
-![image](http://palo.baidu.com:8080/download/lingbin/20170509_palo_export_mind_map.svg)
+![image](../resources/palo_export_mind_map.svg)
 
 + **1. 导出全量数据**  
 当用户希望导出的数据可以灌入其他数据库。
@@ -368,7 +368,7 @@ insert...select语句中，并且需要使用建表时指定的broker，那么�
 
 和现有load作业的状态切换类似。
 
-![image](http://palo.baidu.com:8080/download/lingbin/20170509_export_status_change.png)
+![image](../resources/export_status_change.png)
 
 ### SHOW LOAD
 
@@ -395,11 +395,11 @@ insert...select语句中，并且需要使用建表时指定的broker，那么�
 
 如下图：
 
-![image](http://palo.baidu.com:8080/download/lingbin/20170508_export_plan_tree_1.png)
+![image](../resources/export_plan_tree_1.png)
 
 #### insert ... select语句的执行计划
 
-![image](http://palo.baidu.com:8080/download/lingbin/20170508_export_plan_tree_2.png)
+![image](../resources/export_plan_tree_2.png)
 
 ### 并行导出
 
