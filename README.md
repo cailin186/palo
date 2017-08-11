@@ -174,4 +174,4 @@ See the [Tutorial](./docs/user_guide/tutorial.md) and [SQL Reference](./docs/use
 # Contact us
 palo-rd@baidu.com
 
-需要加入Palo微信技术讨论群的，请加微信号：ruyue_ma，然后备注一下：加入Palo技术讨论群
+需要加入Palo微信技术讨论群的，请加微信号：myh13161636186，然后备注一下：加入Palo技术讨论群
